@@ -1,0 +1,49 @@
+.rs-badge {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin: 6px 0 4px 0;
+  padding: 6px 10px 6px 12px;
+  border-radius: 6px;
+  border-left: 4px solid;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  max-width: 480px;
+  box-sizing: border-box;
+}
+
+.rs-badge.green {
+  background: #e8f5e9;
+  border-left-color: #43a047;
+  color: #1b5e20;
+}
+
+.rs-badge.yellow {
+  background: #fff8e1;
+  border-left-color: #f9a825;
+  color: #5d4037;
+}
+
+.rs-badge.red {
+  background: #fce4ec;
+  border-left-color: #e53935;
+  color: #7f0000;
+}
+
+.rs-badge.grey {
+  background: #f5f5f5;
+  border-left-color: #bdbdbd;
+  color: #757575;
+}
+
+.rs-verdict {
+  font-weight: 700;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.rs-reasons {
+  font-size: 11px;
+  opacity: 0.85;
+}

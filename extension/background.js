@@ -2,7 +2,7 @@
 chrome.runtime.onInstalled.addListener(() => {
   chrome.storage.sync.get("apiEndpoint", (data) => {
     if (!data.apiEndpoint) {
-      chrome.storage.sync.set({ apiEndpoint: "http://localhost:8000" });
+      chrome.storage.sync.set({ apiEndpoint: "https://reviewsentinel-api.onrender.com" });
     }
   });
 });

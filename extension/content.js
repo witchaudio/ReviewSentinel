@@ -2,7 +2,7 @@
   "use strict";
 
   const BADGE_ATTR = "data-reviewsentinel";
-  let apiEndpoint = "http://localhost:8000";
+  let apiEndpoint = "https://reviewsentinel-api.onrender.com";
 
   // ── DOM helpers ────────────────────────────────────────────────────────────
 
